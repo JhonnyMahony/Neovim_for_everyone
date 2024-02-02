@@ -10,6 +10,19 @@ return {
 				null_ls.builtins.diagnostics.eslint_d,
 				null_ls.builtins.diagnostics.rubocop,
 				null_ls.builtins.formatting.rubocop,
+
+				null_ls.builtins.formatting.isort,
+				null_ls.builtins.diagnostics.flake8,
+				null_ls.builtins.diagnostics.mypy,
+				null_ls.builtins.formatting.black,
+
+				-- Add HTML formatting and diagnostics
+				null_ls.builtins.formatting.prettier,
+				null_ls.builtins.diagnostics.htmlhint,
+
+				-- Add CSS formatting and diagnostics
+				null_ls.builtins.formatting.stylelint,
+				null_ls.builtins.diagnostics.stylelint,
 			},
 		})
 
