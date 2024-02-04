@@ -8,7 +8,7 @@
   opts = {
     size = 20,
     hide_numbers = true,
-    open_mapping = [[<C-t>]],
+    open_mapping = [[<C-\>]],
     shade_filetypes = {},
     shade_terminals = false,
     shading_factor = 0.3,

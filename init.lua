@@ -13,3 +13,4 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim-options")
 require("lazy").setup("plugins")
+-- Your existing Neovim configurations go above this line
